@@ -25,7 +25,7 @@ library(sna);library(igraph)
 rm(list=ls())
 getwd()
 setwd('write the name of your directory here')
-load('lab3.RData')
+load('lab3_2021.02.10.RData')
 
 ########################################################################################################################
 
