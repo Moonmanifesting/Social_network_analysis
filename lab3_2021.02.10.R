@@ -1,8 +1,8 @@
 ########################################################################################################################
 ## SOCIAL NETWORK ANALYSIS (771A23, 2020-2021)
 ## Lab session 3 (Community detection and network properties)
-## R script written by Jose Luis Estevez (Linköping University) (email: jose.luis.estevez@liu.se)
-## Date: February 10th, 2020
+## R script written by Jose Luis Estevez (LinkÃ¶ping University) (email: jose.luis.estevez@liu.se)
+## Date: February 10th, 2021
 ########################################################################################################################
 
 # GENERAL INFORMATION
