@@ -21,7 +21,7 @@ library(sna);library(igraph)
 #packageDescription('sna')
 #packageDescription('igraph')
 
-# Clean the session, and set the directory to whereVER you stored the data set (i.e., lab3.RData)
+# Clean the session, and set the directory to where you stored the data set (i.e., lab3.RData)
 rm(list=ls())
 getwd()
 setwd('write the name of your directory here')
