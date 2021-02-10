@@ -21,10 +21,10 @@ library(sna);library(igraph)
 #packageDescription('sna')
 #packageDescription('igraph')
 
-# Clean the session, and set the directory to where you stored the data set (i.e., lab3.RData)
+# Clean the session, and set the directory to wherever you stored the data set (i.e., lab3.RData)
 rm(list=ls())
 getwd()
-setwd('write the name of your directory here')
+setwd("C:/Users/joses32/OneDrive - Linköpings universitet/Desktop/SNA/Lab3")
 load('lab3_2021.02.10.RData')
 
 ########################################################################################################################
@@ -212,7 +212,7 @@ rownames(geo_distances$gdist) <- colnames(geo_distances$gdist) <- rownames(matri
 View(geo_distances$gdist)
 # Infinite is obtain whenever a node cannot reach another throughout the network (aka presence of isolates)
 # The problem is, we cannot run hierarchical clustering if there are infinite then
-h_clustering <- hclust(as.dist(x$gdist), # don't forget to turn the matrix into a distance object
+h_clustering <- hclust(as.dist(geo_distances$gdist), # don't forget to turn the matrix into a distance object
                        method='complete') # several methods available: maximum or complete, minimum or single, and average
 
 # Solution: assign the number of nodes in the network to those infinite...
